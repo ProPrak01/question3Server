@@ -1,6 +1,6 @@
-import express from 'express'
-import cors from 'cors'
-import mongoose from 'mongoose'
+const express = require("express");
+const mongoose = require("mongoose");
+const cors = require("cors");
 const app = express()
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
